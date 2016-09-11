@@ -1,0 +1,25 @@
+{
+  "token": {
+    "url": "https://sandbox-authservice.priaid.ch/login",
+    "username": "hirakchatterjee@gmail.com",
+    "password": "r8XKo46Atw2E7GmBa"
+  },
+  "api": {
+    "language": "en",
+    "format": "json",
+    "baseUrl": "https://sandbox-healthservice.priaid.ch/",
+    "endpoints": {
+      "loadSymptoms": "symptoms",
+      "loadIssues": "issues",
+      "loadIssueInfo": "issues",
+      "loadDiagnosis": "diagnosis",
+      "loadSpecialisations": "diagnosis/specialisations",
+      "loadBodyLocations": "body/locations",
+      "loadBodySublocations": "body/locations/",
+      "loadBodySublocationSymptoms": "symptoms",
+      "loadProposedSymptoms": "symptoms/proposed",
+      "loadRedFlagText": "redflag"
+    }
+  }
+
+}

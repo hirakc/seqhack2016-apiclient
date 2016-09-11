@@ -1,0 +1,22 @@
+{
+  "name": "apimedic_client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Hirak Chatterjee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "minimist": "^1.2.0",
+    "q": "^1.4.1",
+    "superagent": "^2.2.0"
+  },
+  "devDependencies": {
+    "superagent-logger": "^1.1.0"
+  }
+}
